@@ -1,0 +1,13 @@
+# Never publish runtime/security artifacts
+.env
+.env.*
+*.log
+*.db
+*.sqlite*
+*.har
+*.burp
+*.jwt
+*.pem
+*.key
+__pycache__/
+.venv/
